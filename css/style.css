@@ -1,0 +1,125 @@
+/* 
+Author:- Adnan Ahmed
+Email Address:- adnan.ahmed0061@gmail.com
+Github ID:- https://github.com/Adnan0061
+*/
+
+
+/*
+
+<--==============Index================-->
+
+1. Hero Section
+2. Preview Section
+3. Template Section
+4. Feature Section
+5. More Feature Section
+6. Information Section
+7. Discover Section
+8. Footer
+
+*/
+
+/*<--================== Global Css==========-->*/
+
+section {
+
+}
+
+h1, h2, h4 {
+	color: white;
+}
+
+h1 span {
+	color: #2a5da3;
+}
+
+h2 span {
+	color: #2a5da3;
+}
+
+p {
+	color: #2a5da3;	
+}
+
+button {
+	background: none;
+	border: 1px solid #2a5da3;
+	border-radius: 20px;
+	padding: 3px 15px;
+    color: white;
+}
+
+.text-center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.image-center {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+/*<===================== project Css================>*/
+
+body {
+	background: url(../img/bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.preview-r img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+.preview-l img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+.preview-m img {
+    vertical-align: middle;
+    border-style: none;
+    width: 120%;
+    position: relative;
+    top: -60px;
+    left: -35px;
+}
+
+#templates img {
+	vertical-align: middle;
+    border-style: none;
+    width: 115%;
+    position: relative;
+    left: -135px;
+    top: -55px;
+}
+
+#features h2 {
+    padding: 0 0 100px;
+}
+
+#features img {
+    width: 150%;
+    position: relative;
+    top: -200px;
+    left: -95px;
+}
+
+#more img {
+    vertical-align: middle;
+    border-style: none;
+    width: 120%;
+    position: relative;
+    top: -120px;
+    left: 28px;
+}
