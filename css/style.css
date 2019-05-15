@@ -410,7 +410,7 @@ button.navbar-toggler.toggler-example {
 	    width: 111%;
 	    position: relative;
 	    top: 70px;
-	    left: 1px;
+	    left: 0px;
 	}
 	#review {
 	    background: #061326;
